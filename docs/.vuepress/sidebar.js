@@ -1,3 +1,3 @@
 module.exports = {
-    "/frontend/html/":["","1.html基础","2.html标签","3.表格"]
+    "/frontend/html/":["","1.web初识","2.HTML初识","3.HTML常用标签","4.表格","5.列表","6.表单"]
 }	
