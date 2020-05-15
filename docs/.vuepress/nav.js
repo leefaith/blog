@@ -1,54 +1,96 @@
 module.exports = [
   {
-    text: "前端学习",
+    text: "Home",
+    link: "/",
+  },
+
+  {
+    text: "基础",
     items: [
-      { text: "HTML", link: "/frontend/html/" },
-      { text: "CSS", link: "/frontend/css/" },
-      { text: "JavaScript", link: "/frontend/javascript/" },
-      { text: "Vue", link: "/frontend/vue/" },
-      { text: "React", link: "/frontend/react/" },
+      { text: "HTML", link: "/htmlcss/html/" },
+      { text: "CSS", link: "/htmlcss/css/" },
+      { text: "H5C3", link: "/htmlcss/h5c3/" },
+      { text: "移动端", link: "/htmlcss/mobile/" },
     ],
   },
   {
-    text: "后台学习",
+    text: "JavaScript",
     items: [
-      { text: "Java基础", link: "/backend/javabase/" },
-      { text: "Java高级编程", link: "/backend/javaseinor/" },
-      { text: "MySQL", link: "/backend/mysql/" },
+      { text: "JavaScript基础", link: "/javascript/jsbase/" },
+      { text: "JavaScript高级", link: "/javascript/jssernior/" },
+      { text: "jQuery", link: "/javascript/jQuery/" },
+      { text: "ES6", link: "/javascript/es6/" },
     ],
   },
   {
-    text: "计算机",
+    text: "前后端交互",
+    items: [
+      { text: "Webapi", link: "/webapis/webapi/" },
+      { text: "npm", link: "/webapis/npm/" },
+      { text: "node", link: "/webapis/node/" },
+      { text: "express", link: "/webapis/express/" },
+      { text: "ajax", link: "/webapis/ajax/" },
+      { text: "others", link: "/webapis/others/" },
+    ],
+  },
+  {
+    text: "框架",
+    items: [
+      { text: "Vue.js", link: "/framework/vue/" },
+      { text: "React", link: "/framework/react/" },
+      { text: "小程序", link: "/framework/uniapp/" },
+    ],
+  },
+  {
+    text: "Java",
+    items: [
+      { text: "Java初级", link: "/java/javabase/" },
+      { text: "Java高级", link: "/java/javabase/" },
+    ],
+  },
+  {
+    text: "数据库",
+    items: [
+      { text: "MySQL", link: "/database/mysql/" },
+      { text: "MongoDB", link: "/database/mongodb/" },
+      { text: "Redis", link: "/database/redis/" },
+    ],
+  },
+  {
+    text: "计算机基础",
     items: [
       { text: "计算机网络", link: "/computer/network/" },
-      { text: "操作系统", link: "/computer/os/" },
-      { text: "数据结构", link: "/computer/datastructure/" },
-      { text: "算法", link: "/computer/algorithm/" },
+      { text: "数据结构", link: "/computer/datastruct/" },
       { text: "设计模式", link: "/computer/designpattern/" },
     ],
   },
   {
-    text: "面试",
+    text: "Notes",
     items: [
-      { text: "HTML&CSS", link: "/interview/htmlcss/" },
-      { text: "Javascript", link: "interview/javascript" },
-      { text: "Vue", link: "interview/vue" },
-      { text: "React", link: "interview/react" },
+      { text: "htmlcss", link: "/notes/htmlcss/" },
+      { text: "javascript", link: "/notes/javascript/" },
+      { text: "vue", link: "/notes/vue/" },
+      { text: "react", link: "/notes/react/" },
+      { text: "books", link: "/notes/books/" },
     ],
   },
   {
-    text: "我的项目",
+    text: "Linux",
     items: [
-      { text: "小程序", link: "/project/uniapp/" },
-      { text: "音乐播放器", link: "/project/cloudmusic/" },
+      { text: "Linux", link: "/linux/linux/" },
+      { text: "Docker", link: "/linux/docker/" },
     ],
   },
   {
-    text: "开发工具",
+    text: "Project",
+    items: [{ text: "糗事百科", link: "/projects/vue/" }],
+  },
+  {
+    text: "工具",
     items: [
-      { text: "vscode", link: "/tools/vscode/"},
-      { text: "git", link: "/tools/git/"},
+      { text: "git", link: "/tools/git/" },
+      { text: "vscode", link: "/tools/vscode/" },
+      { text: "vuepress", link: "/tools/vuepress/" },
     ],
   },
-  
 ];
