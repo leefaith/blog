@@ -10,7 +10,8 @@ module.exports = {
   ],
   "/htmlcss/css/": [
     "",
-    "1.css初识","2.css基础选择器",
+    "1.css初识",
+    "2.css基础选择器",
     "3.css字体样式属性",
     "4.css复合选择器",
     "5.css标签显示",
@@ -22,4 +23,13 @@ module.exports = {
     "11.高级技巧",
   ],
   "/htmlcss/h5c3/": ["", "html5", "css3"],
+  "/htmlcss/mobile/": ["", "移动端基础", "flex布局", "rem布局", "响应式布局"],
+  "/javascript/jsbase/": [
+    "",
+    "1.初识JavaScript",
+    "2.变量",
+    "3.数据类型",
+    "4.运算符",
+    "5流程控制-分支"
+  ],
 };
